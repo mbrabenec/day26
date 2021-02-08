@@ -26,7 +26,7 @@ class Square
     public function __toString()
     {
         
-        return '<div class="square '. ($this->isDark() ? 'black' : 'white') . '">' . $this->piece . '</div>';
+        return '<div class=" board row square '. ($this->isDark() ? 'black' : 'white') . '">' . $this->piece . '</div>';
         
     }
 
